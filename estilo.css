@@ -1,0 +1,450 @@
+@font-face {
+  font-family: Ubuntu Mono;
+  src: url('../font/UbuntuMono-Bold.ttf');
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:	#000000;
+
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+header{
+  background-color: rgb(98, 0, 255);
+  padding: 2%;
+  font-family: 'UbuntuMono-Bold', cursive;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu{
+  background-color: rgba(0, 0, 0, 0.3);
+   padding: 2%;
+
+}
+
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.itens_Menu{
+  text-align: center;
+
+}
+
+.itens_menu li{
+  color: #0004ff;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+.itens_Menu a:visited, .itens_Menu a:link{
+  color: #fbff00;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.itens_Menu a:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0.8%;
+}
+
+.itens_Menu a:active{
+  color: rgb(255, 0, 0);
+}
+
+h1{
+  font-size: 2em;
+  font-family: 'Fredoka One', cursive;
+  z-index: -1000;
+}
+
+ul{
+  color: #0004ff;
+  font-size: 1.5em;
+  line-height: 1.3;
+  text-align: center;
+  font-family: 'UbuntuMono-Bold.ttf',cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+label{
+  color: #fbff00;
+  font-size: 1.5em;
+  line-height: 1.3;
+  text-align: center;
+  font-family: 'UbuntuMono-Bold.ttf',cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+p{
+  color: #FFD700;  
+  font-size: 1.5em;
+  line-height: 1.3;
+  text-align: center;
+  font-family: 'UbuntuMono-Bold.ttf',cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* text-indent: 40px; */
+
+  
+}
+
+h1,h2{
+    color: #0044ff;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+figure{
+    text-align: center;
+    
+}
+.container{
+    width:70%;
+    margin: auto;
+    position: relative;  
+}
+
+h1{
+  text-align: center;
+  color: rgb(38, 0, 255);
+  font-weight: bolder;
+}
+
+
+.img_topo{
+    width: 100%;
+}
+
+p{
+  font-size: 1.3em; 
+  color:rgb(233, 229, 10);
+  font-weight: bold;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.5;   
+  font-family: 'DancingScript-VariableFont_wght',cursive;     
+}
+
+
+.img_corpo{
+    width: 40%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;  
+    z-index: -1000;  
+}
+
+#mais a:link, #mais a:visited {
+  color: #adf3ff;
+}
+
+#mais a:hover{
+  color: rgb(0, 102, 255), 0, 0 ;
+}
+
+footer{
+    background-color: rgba(22, 67, 214, 0.795);
+    padding-top: 1%;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1em;
+}
+
+.center{
+  text-align: center;
+}
+
+.botao{
+  margin: 1%;
+  width: 100px;
+  height: 40px;
+  padding: 2%;
+  background-color: rgba(#ffffff);
+  margin: auto;
+  border-radius: 20px
+  t
+}
+
+.botao:hover{
+  background-color:#ffffff;
+}
+
+.botao a:link, .botao a:visited{
+  color:#ffef0b;
+  text-decoration: none;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.botao p{
+  text-align: center;
+}
+
+section{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.direita{
+  float: right;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 35%;
+}
+
+.esquerda{
+  float: left;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'UbuntuMono',cursive;
+}
+
+td,th{
+  border: 2px dashed #ffffff;
+  padding: 5%;
+  color: #FFD700;
+}
+
+th{
+  font-size: 1.5em;
+  font-weight: bolder;
+  }
+
+td:first-child{
+  width: 40% ;
+}
+
+td:first-child + td{
+  width: 60% ;
+
+}
+audio{
+  width: 85%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #0004ff !important;
+}
+
+.form{
+  box-sizing: border-box;
+  background-color:rgba(9, 7, 6, 0.3);
+  padding: 5%;
+  border-radius: 25px;
+}
+
+input[type=text], input[type=tel], input[type=email],input[type=date], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  resize: vertical;
+  font-family: 'KaushanScript-Regular',cursive;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.col-25{
+  width: 25%;
+  float: left;
+  margin-top: 6px;
+}
+
+.col-75{
+  width:  75%;
+  float: left;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color: #000000 ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  font-weight: bolder;
+}
+
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+
+  .form{  
+    border-radius: 50px;
+  }
+
+  .logo{
+    text-align: center;
+
+}
+
+.img_logo{
+    width: 20%;
+}
+
+
+.banner{
+    margin-top: 40%;
+}
+
+  
+  @media screen and (max-width:600px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+      
+      .logo{
+        text-align: center;
+        
+    }
+
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
+    .descer{
+        margin-top: 50%;
+    }
+
+
+  }
+
+   @media screen and (min-width:601px) {
+
+    header{
+        background-color: rgb(0, 0, 0);
+        flex-direction: row;
+        padding: 3%;
+    }
+
+  .itens_menu{         
+  position: absolute;
+  right: 6%;
+  top: 45%;
+  width: 70%;
+
+    }
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+  }
+   
+  .img_logo{
+    width: 30%;
+}
+
+.logo{
+    width: 30%;
+    text-align: left;
+}
+
+.banner{
+  margin-top: 10%;
+}
+.descer{
+  margin-top: 10%;
+}
+    
+  }
+  .botao2{
+    width: 100px;
+    height: 40px;   
+    background-color: rgba(128,128,128, 0.5);
+    margin: auto; 
+    padding: 1.5%;
+    border-radius: 25px;
+    text-align: center;
+}
+.botao2 p{
+  text-indent: 0;
+  text-align: center;
+}
+.itens_menu{
+  text-align: center;
+}
+
+.itens_menu li{
+
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+.itens_menu a:link, .itens_menu a:visited  {
+  color: #00ff6a;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.itens_menu a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+}
+
+.itens_menu a:active{
+  color: rgb(255, 0, 0);
+}
+.button {
+  background-color: #0044ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 45%;
+  cursor: pointer;
+}
